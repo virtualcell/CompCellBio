@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CompCellBio"
+    }
+  },
+  "defaultProject": "CompCellBio",
+  "cli": {
+    "analytics": false
+  }
 }
