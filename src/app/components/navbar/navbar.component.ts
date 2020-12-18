@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  menuItems: {title:string, children: object[]}[] = [
+  menuItems: { title: string, children: { icon: string, title: string }[] }[] = [
     {
       title: 'Home',
       children: []

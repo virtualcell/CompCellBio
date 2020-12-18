@@ -12,6 +12,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+
 
 
 
@@ -27,6 +29,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatListModule,
     MatMenuModule,
     AppRoutingModule,
+    MatButtonModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatToolbarModule,

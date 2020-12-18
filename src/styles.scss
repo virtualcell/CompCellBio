@@ -1,45 +1,3 @@
-
-// Custom Theming for Angular Material
-// For more information: https://material.angular.io/guide/theming
-@import '~@angular/material/theming';
-// Plus imports for other components in your app.
-
-// Include the common styles for Angular Material. We include this here so that you only
-// have to load a single css file for Angular Material in your app.
-// Be sure that you only ever include this mixin once!
-@include mat-core();
-
-// Define the palettes for your theme using the Material Design palettes available in palette.scss
-// (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// hue. Available color palettes: https://material.io/design/color/
-$CompCellBio-primary: mat-palette($mat-indigo);
-$CompCellBio-accent: mat-palette($mat-pink, A200, A100, A400);
-
-// The warn palette is optional (defaults to red).
-$CompCellBio-warn: mat-palette($mat-red);
-
-// Create the theme object. A theme consists of configurations for individual
-// theming systems such as "color" or "typography".
-$CompCellBio-theme: mat-light-theme((
-  color: (
-    primary: $CompCellBio-primary,
-    accent: $CompCellBio-accent,
-    warn: $CompCellBio-warn,
-  )
-));
-
-// Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-@include angular-material-theme($CompCellBio-theme);
-
-/* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-/* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 body { 
@@ -48,37 +6,11 @@ body {
 }
 
 .basic-container {
-  padding: 50px; 
-
-  a {
-    text-decoration: none;
-    color: yellow;
-  } 
+  padding: 5px;
 }
 
 .version-info {
-  color: black;
   font-size: 8pt;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  float: right;
 }
 
-/* here's what you're looking for B-) */
-mat-nav-list.list-horizontal {
-  padding: 0;
-  .mat-list-item {
-    display: inline-block;
-    height: auto;
-    width: auto;
-  }
-}
-
-.mat-toolbar-row, .mat-toolbar-single-row{
-  height: unset !important;
-}
-
-.mat-list-item .mat-list-item-content {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
