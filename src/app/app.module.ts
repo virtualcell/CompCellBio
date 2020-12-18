@@ -14,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { AboutComponent } from './components/about/about.component';
+import { EducationalResourcesComponent } from './components/educational-resources/educational-resources.component';
 
 
 
@@ -24,7 +25,8 @@ import { AboutComponent } from './components/about/about.component';
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    EducationalResourcesComponent
   ],
   imports: [
     BrowserModule,
