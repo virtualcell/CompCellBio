@@ -1,0 +1,13 @@
+button:focus, 
+button:active:focus, 
+button.active:focus {
+    outline: none !important;
+    outline-style: none !important;
+}
+
+img:focus, 
+img:active:focus, 
+img.active:focus {
+    outline: none !important;
+    outline-style: none !important;
+}
