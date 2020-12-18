@@ -10,6 +10,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
+
 
 
 
@@ -21,6 +24,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule,
+    MatListModule,
+    MatMenuModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
