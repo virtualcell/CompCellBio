@@ -15,6 +15,10 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { AboutComponent } from './components/about/about.component';
 import { EducationalResourcesComponent } from './components/educational-resources/educational-resources.component';
+import { DatabaseResourcesComponent } from './components/database-resources/database-resources.component';
+import { SoftwareResourcesComponent } from './components/software-resources/software-resources.component';
+import { PublicationsComponent } from './components/publications/publications.component';
+import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
 
 
 
@@ -26,7 +30,11 @@ import { EducationalResourcesComponent } from './components/educational-resource
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    EducationalResourcesComponent
+    EducationalResourcesComponent,
+    DatabaseResourcesComponent,
+    SoftwareResourcesComponent,
+    PublicationsComponent,
+    UpcomingWorkshopsComponent
   ],
   imports: [
     BrowserModule,
