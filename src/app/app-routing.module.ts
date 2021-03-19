@@ -10,7 +10,7 @@ import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upco
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'educational-resources', component: EducationalResourcesComponent },
   { path: 'database-resources', component: DatabaseResourcesComponent },

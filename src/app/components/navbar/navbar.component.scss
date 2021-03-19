@@ -1,8 +1,9 @@
 button:focus, 
 button:active:focus, 
 button.active:focus {
-    outline: none !important;
-    outline-style: none !important;
+    outline: rgb(255, 255, 255) !important;
+    outline-style: solid !important;
+    color: rgb(238, 255, 0);
 }
 
 img:focus, 
