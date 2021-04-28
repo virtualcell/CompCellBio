@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import {MatTableModule} from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -44,6 +45,7 @@ import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upco
     MatButtonModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
+    MatTableModule,
     MatToolbarModule,
     MatIconModule,
     NgbModule
