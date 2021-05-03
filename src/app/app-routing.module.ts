@@ -7,11 +7,13 @@ import { HomeComponent } from './components/home/home.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { SoftwareResourcesComponent } from './components/software-resources/software-resources.component';
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
+import { NetworksComponent } from './components/networks/networks.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'networks', component: NetworksComponent },
   { path: 'educational-resources', component: EducationalResourcesComponent },
   { path: 'database-resources', component: DatabaseResourcesComponent },
   { path: 'software-resources', component: SoftwareResourcesComponent },

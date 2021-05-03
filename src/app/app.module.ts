@@ -15,12 +15,12 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { AboutComponent } from './components/about/about.component';
+import { NetworksComponent } from './components/networks/networks.component';
 import { EducationalResourcesComponent } from './components/educational-resources/educational-resources.component';
 import { DatabaseResourcesComponent } from './components/database-resources/database-resources.component';
 import { SoftwareResourcesComponent } from './components/software-resources/software-resources.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
-
 
 
 
@@ -35,7 +35,8 @@ import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upco
     DatabaseResourcesComponent,
     SoftwareResourcesComponent,
     PublicationsComponent,
-    UpcomingWorkshopsComponent
+    UpcomingWorkshopsComponent,
+    NetworksComponent
   ],
   imports: [
     BrowserModule,
