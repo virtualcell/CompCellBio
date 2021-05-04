@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './components/about/about.component';
+import { StandardsComponent } from './components/standards/standards.component';
 import { DatabaseResourcesComponent } from './components/database-resources/database-resources.component';
 import { EducationalResourcesComponent } from './components/educational-resources/educational-resources.component';
 import { HomeComponent } from './components/home/home.component';
@@ -12,7 +12,7 @@ import { NetworksComponent } from './components/networks/networks.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'standards', component: StandardsComponent },
   { path: 'networks', component: NetworksComponent },
   { path: 'educational-resources', component: EducationalResourcesComponent },
   { path: 'database-resources', component: DatabaseResourcesComponent },

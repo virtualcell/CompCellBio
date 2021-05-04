@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { AboutComponent } from './about.component';
+import { AboutComponent } from './standards.component';
 
 describe('AboutComponent', () => {
   let component: AboutComponent;

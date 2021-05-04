@@ -14,7 +14,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
-import { AboutComponent } from './components/about/about.component';
+import { StandardsComponent } from './components/standards/standards.component';
 import { NetworksComponent } from './components/networks/networks.component';
 import { EducationalResourcesComponent } from './components/educational-resources/educational-resources.component';
 import { DatabaseResourcesComponent } from './components/database-resources/database-resources.component';
@@ -30,7 +30,7 @@ import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upco
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AboutComponent,
+    StandardsComponent,
     EducationalResourcesComponent,
     DatabaseResourcesComponent,
     SoftwareResourcesComponent,
