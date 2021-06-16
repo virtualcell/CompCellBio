@@ -13,3 +13,13 @@ h1 {
     color: adjust-hue($color: #52b610, $degrees: 0);
     
   }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #3F51B5;
+    margin-top: 50px;   /*space between content and footer*/
+}
