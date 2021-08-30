@@ -12,7 +12,6 @@ import { NetworksComponent } from './components/networks/networks.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'home', redirectTo: '', pathMatch: 'full' },
   { path: 'standards', component: StandardsComponent },
   { path: 'networks', component: NetworksComponent },
   { path: 'educational-resources', component: EducationalResourcesComponent },
