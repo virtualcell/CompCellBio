@@ -15,15 +15,14 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="networks">Networks</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="educational-resources">Educational Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="database-resources">Database Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="software-resources">Software Resources</a>
-          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="educational-resources">Educational Resources</a></li>
+              <li><a class="dropdown-item" routerLink="database-resources">Database Resources</a></li>
+            <li><a class="dropdown-item" routerLink="software-resources">Software Resources</a></li>
+            </ul>
           <li class="nav-item">
             <a class="nav-link" routerLink="publications">Publications</a>
           </li>
