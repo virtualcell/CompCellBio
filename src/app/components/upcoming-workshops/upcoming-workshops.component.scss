@@ -1,0 +1,76 @@
+h1.margin{
+    margin-top: 75px;
+}
+
+
+/* This is the code for the events ribbon */
+.content {
+    /*background:#e6e2c8;*/
+    /*background:#BDC0C3;*/
+    /*background:#938E94;*/
+    width:80%;
+    max-width:960px;
+    min-height:3.75em;
+    margin:2em auto;
+    padding:1.25em;
+    border-radius:.313em;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.5);
+    line-height:1.5em;
+    /*color:#292929*/
+    /*color:#ffffff;*/
+    color:#5D5C61;
+
+    }
+    
+    .ribbon {
+    position:relative;
+    padding:0 .5em;
+    font-size:2em;
+    margin:0 0 0 -.625em;
+    line-height:1.875em;
+    /*color:#e6e2c8;*/
+    color:#ffffff;
+    border-radius:0 .156em .156em 0;
+    background:#7b9fc7;
+    box-shadow:-1px 2px 3px rgba(0,0,0,0.5)
+    }
+    
+    .ribbon:before,.ribbon:after {
+    position:absolute;
+    content:'';
+    display:block
+    }
+    
+    /*.ribbon:before {
+    width:.469em;
+    height:100%;
+    padding:0 0 .438em;
+    top:0;
+    left:-.469em;
+    background:inherit;
+    border-radius:.313em 0 0 .313em
+    }
+    
+    .ribbon:after {
+    width:.313em;
+    height:.313em;
+    background:rgba(0,0,0,0.35);
+    bottom:-.313em;
+    left:-.313em;
+    border-radius:.313em 0 0 .313em;
+    box-shadow:inset -1px 2px 2px rgba(0,0,0,0.3)
+    }*/
+    @media (max-width: 600px) {
+    body {
+    font-size:.875em
+    }
+    
+    .ribbon {
+    line-height:1.143em;
+    padding:.5em
+    }
+    
+    .ribbon:before,.ribbon:after {
+    font-size:.714em
+    }
+    }

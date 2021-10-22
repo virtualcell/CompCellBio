@@ -1,2 +1,249 @@
 
+.header{
+  margin-top: 45px;
+}
+
+h1.margin{
+  margin-top: 45px;
+}
+
+
+/*Card Style -- Andrew Sims*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #595F7C;
+    /*background-color: #787c93;*/
+    /*background-color: #00838D;*/
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .card1 {
+    display: block;
+    position: relative;
+    max-width: 262px;
+    /*background-color: #f2f8f9;*/
+    /*background-color: #868594;*/
+    /*background-color: #9C8CA1;*/
+    background-color: #5c3d66;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    color: #ffffff;
+  }
+  
+    /*.before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -16px;
+      right: -16px;
+      background: #787C93;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }*/
+  
+    .hover:before {
+      transform: scale(21);
+    }
+
+  
+  .card1:hover {
+      /*background-color: #787C93;*/
+      /*background-color: #787c93;*/
+      background-color: #595F7C;
+    p {
+      transition: all 0.3s ease-out;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+  }
+  
+
+
+  /*Publication Cards*/
+
+  .card_pub-container{
+    padding: 30px;
+}
+
+.heading {
+    margin-top: 60px;
+    margin-left: 70px;
+  }
+  
+  
+  /* Publication CARDS */
+  
+  .cards_pub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card_pub {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    min-height: 200px;
+    display: grid;
+    /*grid-template-rows: 20px 50px 1fr 50px;*/
+    /*grid-template-rows: 100px 170px 1fr 50px;*/
+    grid-template-rows: 100px 180px 1fr 50px;
+    border-radius: 10px; /*rounded edges*/
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .card_pub:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+    /*transform: scale(1.01);*/
+    translate: 0,0,0;
+  }
+
+  .card_pub_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 300px;
+  }
+
+  
+  a.card_pub_link
+   {
+        position: relative;
+        text-decoration: none;
+        color: rgba(255, 255, 255, .9);
+        align-items: center;
+        justify-content: center;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .card_pub_image img{
+    width: 100%;
+    object-fit: cover; 
+  }
+  
+  .card_pub_link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+  
+  
+  .card_pub_title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .card_pub_apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card_pub-skyblue {
+    /*background: linear-gradient(#92eaff, #5780b1);*/
+    background: linear-gradient(#4b8dcd, #7ec3d1);
+  }
+
+  .card_pub-blue1 {
+    background: linear-gradient(#3170a9, #8fbae2);
+  }
+
+  .card_pub-pink {
+    background: linear-gradient(#e43de8, #e1a1e2);
+  }
+
+  .card_pub-green {
+    background: linear-gradient(#6eb529, #a6c588);
+  }
+
+  .card_pub-red {
+    background: linear-gradient(#f31725, #fa858d);
+  }
+
+  .card_pub-gryellow {
+    background: linear-gradient(#a3b11e, #c2cb6e);
+  }
+
+  .card_pub-grey {
+    background: linear-gradient(#878787, #c0c0c0);
+  }
+
+  .card_pub-orange {
+    background: linear-gradient(#fc7f18, #e7a167);
+  }
+
+  .card_pub-black {
+    background: linear-gradient(#474646, #919387);
+  }
+
+ /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards_pub {
+      justify-content: center;
+    }
+  }
+
 
