@@ -43,28 +43,23 @@ hr.line {
     margin: 1rem;
     position: relative;
     width: 200px;
-    
+    transition: box-shadow .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .cardDark {
-    background: #968a80;
-    border-width: 4px;
-    border-radius: 10px;
-    display: inline-block;
-    height: 220px;
-    margin: 1rem;
-    position: relative;
-    width: 200px;
-    color: white;
+  .card:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+    color:#ffffff;
+}
+
+
+  a.logos {
+    color: #ffffff;
+    text-decoration: none;
   }
 
-  a.cardD{
-    color: #b4c8f0;
-    font-weight: lighter;
-  }
-
-  .card-3 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  }
 
   
