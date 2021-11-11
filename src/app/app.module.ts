@@ -21,6 +21,7 @@ import { DatabaseResourcesComponent } from './components/database-resources/data
 import { SoftwareResourcesComponent } from './components/software-resources/software-resources.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
+import { TeamComponent } from './components/team/team.component';
 
 
 
@@ -36,7 +37,8 @@ import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upco
     SoftwareResourcesComponent,
     PublicationsComponent,
     UpcomingWorkshopsComponent,
-    NetworksComponent
+    NetworksComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

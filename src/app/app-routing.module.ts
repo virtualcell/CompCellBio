@@ -8,11 +8,13 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { SoftwareResourcesComponent } from './components/software-resources/software-resources.component';
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
 import { NetworksComponent } from './components/networks/networks.component';
+import { TeamComponent } from './components/team/team.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'team', component: TeamComponent},
   { path: 'standards', component: StandardsComponent },
   { path: 'networks', component: NetworksComponent },
   { path: 'educational-resources', component: EducationalResourcesComponent },

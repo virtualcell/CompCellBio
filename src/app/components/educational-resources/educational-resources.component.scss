@@ -1,15 +1,46 @@
 
 .header{
-  margin-top: 45px;
+  margin-top: 75px;
+  text-align: center;
 }
 
-h1.margin{
-  margin-top: 45px;
+.subheader{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
+
+.bannerTitle{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: white;
+  padding-top: 20px;
+}
+
+.bannerText{
+  color: white;
+  margin-left: 150px;
+  font-size: medium;
+
+}
+
+a.bannerLink{
+  color: white;
+}
+
+ul{
+  list-style-type: square;
+}
+
+.bannerWebinar{
+  height: auto;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to right, #979fc7, #7f7e85);
+}
 
 /*Card Style -- Andrew Sims*/
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 .container {
     width: 100%;
@@ -18,17 +49,7 @@ h1.margin{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top:30px;
-}
-
-.container2 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 70px;
+    display: grid;
 }
 
 .go-corner {
@@ -41,9 +62,8 @@ h1.margin{
     overflow: hidden;
     top: 0;
     right: 0;
-    background-color: #595F7C;
-    /*background-color: #787c93;*/
-    /*background-color: #00838D;*/
+    background-color: #7F7E85;
+    /*background-color: #696669;*/
     border-radius: 0 4px 0 32px;
   }
   
@@ -58,12 +78,10 @@ h1.margin{
     display: block;
     position: relative;
     max-width: 262px;
-    /*background-color: #f2f8f9;*/
-    /*background-color: #868594;*/
-    /*background-color: #9C8CA1;*/
-    background-color: #5c3d66;
+    /*background-color: #5d5c61;*/
+    background-color: #B1A296;
     border-radius: 4px;
-    padding: 32px 24px;
+    padding: 22px 24px;
     margin: 12px;
     text-decoration: none;
     z-index: 0;
@@ -90,11 +108,9 @@ h1.margin{
       transform: scale(21);
     }
 
-  
-  .card1:hover {
-      /*background-color: #787C93;*/
-      /*background-color: #787c93;*/
-      background-color: #595F7C;
+    .card1:hover {
+      background-color: #7F7E85;
+      /*background-color: #696669;*/
     p {
       transition: all 0.3s ease-out;
       color: rgba(255, 255, 255, 0.8);
@@ -106,16 +122,15 @@ h1.margin{
   }
   
 
-
   /*Publication Cards*/
 
-  .card_pub-container{
+ /* .card_pub-container{
     padding: 30px;
-}
+}*/
 
-.heading {
-    margin-top: 60px;
-    margin-left: 70px;
+.pubheading {
+    margin-top: 40px;
+    margin-left: 90px;
   }
   
   
@@ -228,6 +243,10 @@ h1.margin{
 
   .card_pub-grey {
     background: linear-gradient(#878787, #c0c0c0);
+  }
+
+  .card_pub-ltgrey {
+    background: linear-gradient(#bebebe, #edeaea);
   }
 
   .card_pub-orange {

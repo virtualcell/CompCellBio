@@ -31,16 +31,13 @@ h1:last-of-type {
   margin-top: 75px;
 }
 
-.header p {
-  margin: 0 auto;
-  line-height: 2;
-  color: #2f7acd;
+.category {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 20px;
+  margin-top: 125px;
 }
 
-.box p {
-  color: #2f7acd;
-  align-content: center;
-}
 
 .box {
   border-radius: 5px;
@@ -95,8 +92,14 @@ img {
 .skyblue {
   border-top: 3px solid #2f9ec2;
 }
+.seablue{
+  border-top: 3px solid #007dd7;
+}
 .paleblue {
   border-top: 3px solid #daebfb;
+}
+.black {
+  border-top: 3px solid black;
 }
 .red {
   border-top: 3px solid #cc0000;
@@ -119,6 +122,9 @@ border-top: 3px solid #629492;
 .purple{
   border-top: 3px solid #6a3db5;
 }
+.dkpurple{
+  border-top: 3px solid #461c54;
+}
 .green{
   border-top: 3px solid #6dab49;
 }
@@ -139,7 +145,7 @@ border-top: 3px solid #629492;
 }
 
 h2 {
-  color: #31708e;
+  color: black;
   font-weight: 400;
   font-size: 1.875em;
 }

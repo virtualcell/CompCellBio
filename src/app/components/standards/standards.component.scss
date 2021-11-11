@@ -31,16 +31,13 @@ h1:last-of-type {
     margin-top: 75px;
 }
 
-.header p {
-    margin: 0 auto;
-    line-height: 2;
-    color: #2f7acd;
-}
+.category {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 20px;
+    margin-top: 125px;
+  }
 
-.box p {
-    color: #2f7acd;
-    align-content: center;
-}
 
 .box {
     border-radius: 5px;
@@ -86,11 +83,18 @@ img {
 .blue {
     border-top: 3px solid #2f7acd;
 }
+.brown {
+    border-top: 3px solid #453e3b;
+}
+
 .red {
     border-top: 3px solid #cc0000;
 }
 .ltblue {
     border-top: 3px solid #45acdf;
+}
+.coolblue {
+    border-top: 3px solid #0c7dc0;
 }
 .orange {
     border-top: 3px solid #f3854a;
@@ -108,13 +112,12 @@ img {
     border-top: 3px solid #6dab49;
 }
 
-h2 {
-    color: darkblue;
-    font-weight: 600;
+.springgreen{
+    border-top: 3px solid #8ad03a;
 }
 
 
-@media (min-width: 950px) {
+ @media (min-width: 950px) {
     .row1-container {
         display: flex;
         justify-content: center;
@@ -131,18 +134,17 @@ h2 {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-bottom: 40px;
   }
 
     .box-down {
         position: relative;
         top: 40px;
     }
+
     .box {
         width: 20%;
-     
+
     }
-    .header p {
-        width: 30%;
-    }
+ }
     
-}

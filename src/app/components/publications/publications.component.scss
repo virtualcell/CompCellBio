@@ -55,6 +55,7 @@
     align-items: center;
     padding: 10px;
     min-height: 300px;
+    font-size: small;
   }
 
   
@@ -164,6 +165,9 @@
     background: linear-gradient(#fc7f18, #e7a167);
   }
   
+  .card-yellow {
+    background: linear-gradient(#ffff00, #fbfb94);
+  }
   
   
   /* RESPONSIVE */

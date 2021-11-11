@@ -1,0 +1,74 @@
+.header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-text{
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+    }
+
+.contact{
+    padding-left: 50px;
+    margin-right: 20px;
+}
+    
+
+.flex-image{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+}
+
+.cite{
+    font-size: 12px;
+}
+
+.teamheader {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+table{
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 1px solid #dddddd;
+    width: 80%;
+}
+
+td{
+    border: 1px solid #dddddd;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+    table td{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+

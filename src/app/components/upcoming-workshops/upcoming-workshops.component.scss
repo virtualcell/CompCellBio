@@ -1,3 +1,7 @@
+container{
+  display: flex;
+}
+
 h1.margin{
     margin-top: 75px;
 }
@@ -5,9 +9,6 @@ h1.margin{
 
 /* This is the code for the events ribbon */
 .content {
-    /*background:#e6e2c8;*/
-    /*background:#BDC0C3;*/
-    /*background:#938E94;*/
     width:80%;
     max-width:960px;
     min-height:3.75em;
@@ -16,9 +17,8 @@ h1.margin{
     border-radius:.313em;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.5);
     line-height:1.5em;
-    /*color:#292929*/
-    /*color:#ffffff;*/
-    color:#5D5C61;
+    margin-top: 75px;
+    color:#3a393d;
 
     }
     
@@ -28,10 +28,9 @@ h1.margin{
     font-size:2em;
     margin:0 0 0 -.625em;
     line-height:1.875em;
-    /*color:#e6e2c8;*/
     color:#ffffff;
     border-radius:0 .156em .156em 0;
-    background:#7b9fc7;
+    background: #557a95;
     box-shadow:-1px 2px 3px rgba(0,0,0,0.5)
     }
     
@@ -74,3 +73,90 @@ h1.margin{
     font-size:.714em
     }
     }
+
+      /*Responsive Table*/
+      table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+      }
+      
+      table caption {
+        font-size: 1.5em;
+        margin: .5em 0 .75em;
+        caption-side: top;
+        background-color: #557a95;
+        color: white;
+        text-align: center;
+      }
+
+      
+      table tr {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        padding: .35em;
+      }
+      
+      table th,
+      table td {
+        padding: .625em;
+        text-align: center;
+      }
+      
+      table th {
+        font-size: .85em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      
+      @media screen and (max-width: 600px) {
+        table {
+          border: 0;
+        }
+      
+        table caption {
+          font-size: 1.3em;
+        }
+        
+        table thead {
+          border: none;
+          clip: rect(0 0 0 0);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0;
+          position: absolute;
+          width: 1px;
+        }
+        
+        table tr {
+          border-bottom: 3px solid #ddd;
+          display: block;
+          margin-bottom: .625em;
+        }
+        
+        table td {
+          border-bottom: 1px solid #ddd;
+          display: block;
+          font-size: .8em;
+          text-align: right;
+        }
+        
+        table td::before {
+          /*
+          * aria-label has no advantage, it won't be read inside a table
+          content: attr(aria-label);
+          */
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        
+        table td:last-child {
+          border-bottom: 0;
+        }
+      }
