@@ -9,12 +9,14 @@ import { SoftwareResourcesComponent } from './components/software-resources/soft
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
 import { NetworksComponent } from './components/networks/networks.component';
 import { TeamComponent } from './components/team/team.component';
+import { NewsComponent } from './components/news/news.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'team', component: TeamComponent},
+  { path: 'news', component: NewsComponent},
   { path: 'standards', component: StandardsComponent },
   { path: 'networks', component: NetworksComponent },
   { path: 'educational-resources', component: EducationalResourcesComponent },

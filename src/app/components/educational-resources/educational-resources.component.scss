@@ -1,56 +1,96 @@
+.container {
+  margin: auto;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
 
 .header{
-  margin-top: 75px;
+  margin-top:75px;
   text-align: center;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 32px;
+  color: #20394B;
+  padding-bottom: 20px;
 }
 
 .subheader{
   text-align: left;
   margin-left: 20px;
   margin-top: 50px;
+  font-size: 24px;
+  padding-bottom: 2px;
 }
 
-
-.bannerTitle{
-  text-align: left;
-  margin-left: 100px;
-  margin-top: 40px;
+h1.bannerTitle{
   color: white;
-  padding-top: 20px;
+  font-size: 24px;
+  padding-bottom: 2px;
 }
 
 .bannerText{
   color: white;
   margin-left: 150px;
   font-size: medium;
-
 }
 
 a.bannerLink{
   color: white;
 }
 
-ul{
-  list-style-type: square;
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /*border: 1px solid #dddddd;*/
+  width: 80%;
+  background-image: radial-gradient(circle, #979fc7, #7f7e85);
 }
 
-.bannerWebinar{
-  height: auto;
-  padding-bottom: 20px;
-  background-image: linear-gradient(to right, #979fc7, #7f7e85);
+td{
+  /*border: 1px solid #dddddd;*/
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+
+@media screen and (max-width: 990px) {
+  .align{
+      flex-wrap: wrap;}
+  }
+
+@media screen and (max-width: 640px){
+  table td{
+      display: block;
+  }
+  h3{
+      font-size: 15px;
+      inline-size: auto;
+  }
+
+  .flex-image{
+      
+      padding-top: 20px;
+  }
+  
+  table{
+      margin-top: 20px;
+  }
+ 
+}
+
+
 
 /*Card Style -- Andrew Sims*/
-
-.container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    display: grid;
-}
 
 .go-corner {
     display: flex;
@@ -120,6 +160,14 @@ ul{
       color: #ffffff;
     }
   }
+
+  @media screen and (max-width: 991px){
+    .card1{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  }
   
 
   /*Publication Cards*/
@@ -131,6 +179,11 @@ ul{
 .pubheading {
     margin-top: 40px;
     margin-left: 90px;
+  }
+
+  h1.pubheading{
+    font-size: 24px;
+    padding-bottom: 2px;
   }
   
   
@@ -169,7 +222,7 @@ ul{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    min-height: 300px;
+    min-height: 300px;  /*where text is positioned on card*/
   }
 
   
@@ -266,3 +319,8 @@ ul{
   }
 
 
+@media (max-width:280px){
+    .card_pub {
+      min-height: 400px;
+}
+}

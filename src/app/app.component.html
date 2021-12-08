@@ -9,8 +9,13 @@
           <li class="nav-item active">
             <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" routerLink="team">CCB Team</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul  class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" routerLink="team">CCB Team</a></li>
+                <li><a class="dropdown-item" routerLink="news">News</a></li>
+              </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="standards">Standards & Networks</a>
@@ -35,6 +40,6 @@
   </nav>
 <router-outlet></router-outlet>
 <div class="footer">
-  <a href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" target="_blank"><img src="../assets/NIGMSLogoBG.png "></a>
+  <a href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" target="_blank"><img class="flex-image" src="../assets/NIGMSLogoBG.png "></a>
   <h3>Funding provided by: <a href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" class="white" target="_blank">NIGMS National and Regional Resources (R24) Program</a></h3>
 </div>
