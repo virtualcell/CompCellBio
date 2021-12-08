@@ -1,22 +1,9 @@
-
-  /*Responsive 4Card Feature - Jared Parsons*/
-
-
-/*body {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--veryLightGray)
-}*/
-
-/*h1:first-of-type {
-    font-weight: var(--weight1);
-    color: var(--varyDarkBlue);
-
-}
-
-h1:last-of-type {
-    color: var(--varyDarkBlue);
-}*/
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: #20394B;
+    padding-bottom: 20px;
+  }
 
 @media (max-width: 400px) {
   h1 {
@@ -26,18 +13,30 @@ h1:last-of-type {
 
 .header {
   text-align: center;
-  line-height: 0.8;
-  margin-bottom: 20px;
   margin-top: 75px;
+  line-height: 0.8;
+}
+
+.categoryGeneral{
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: -40px;
+  margin-top: 30px;
 }
 
 .category {
   text-align: center;
   line-height: 0.8;
   margin-bottom: 20px;
-  margin-top: 125px;
+  margin-top: 90px;
 }
 
+.categoryDatabase{
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: -40px;
+  margin-top: 80px;
+}
 
 .box {
   border-radius: 5px;
@@ -53,8 +52,6 @@ h1:last-of-type {
   box-shadow: 1px 1px 5px #999;
   color:#ffffff;
 }
-
-
 
 
 /* Alignment when resized don't need with img settings below.
@@ -144,12 +141,6 @@ border-top: 3px solid #629492;
   border-top: 3px solid #f5f5d0;
 }
 
-h2 {
-  color: black;
-  font-weight: 400;
-  font-size: 1.875em;
-}
-
 
 @media (min-width: 950px) {
   .row1-container {
@@ -178,8 +169,17 @@ h2 {
       width: 20%;
    
   }
-  .header p {
-      width: 30%;
-  }
+  
+}
+  
+@media (max-width: 950px) {
+ 
+  .categoryGeneral{
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  
+}
   
 }

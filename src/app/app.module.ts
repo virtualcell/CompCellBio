@@ -22,8 +22,10 @@ import { SoftwareResourcesComponent } from './components/software-resources/soft
 import { PublicationsComponent } from './components/publications/publications.component';
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
 import { TeamComponent } from './components/team/team.component';
+import { NewsComponent } from './components/news/news.component';
 
 
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
@@ -38,7 +40,8 @@ import { TeamComponent } from './components/team/team.component';
     PublicationsComponent,
     UpcomingWorkshopsComponent,
     NetworksComponent,
-    TeamComponent
+    TeamComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
@@ -51,9 +54,13 @@ import { TeamComponent } from './components/team/team.component';
     MatTableModule,
     MatToolbarModule,
     MatIconModule,
-    NgbModule
+    NgbModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
