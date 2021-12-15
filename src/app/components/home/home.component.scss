@@ -34,24 +34,39 @@ hr.line {
     text-align: center;
   }
 
-  .flex-container{
+
+  .container{
     display: flex;
-  }
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-  /*.flex-logo{
-    width: 100%;
+.logoVCell{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.logoCopasi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .logoVCell{
+    width:auto;
     height: auto;
-    padding-top: 40px;
-}*/
-  @media screen and (max-width: 900px) {
-      .flex-logo{
-        width:180px;
-        height: 85px;
-        
-      }
+    padding-top: 0px;
+  }
+  .logoCopasi{
+    width:auto;
+    height: auto;
   }
 
-  
+  }
+
   .card {
     background: #B1A296;
     border-radius: 10px;
@@ -218,27 +233,4 @@ hr.line {
         border-bottom: 0;
       }
     }
-
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .contentcollapsible {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-
+   

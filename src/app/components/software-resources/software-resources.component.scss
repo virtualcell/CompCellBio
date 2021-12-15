@@ -1,19 +1,47 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 32px;
   color: #20394B;
 }
 
+@media screen and (max-width: 481px){
+  h1{
+    font-size: 1.5rem;
+  } 
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
   }
   
+
   td, th {
     border: 2px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: .625em;
     text-align: left;
     font-weight:bold;
   }
@@ -21,6 +49,64 @@ table {
     background-color: #dddddd;
   }
 
-  .header{
-    margin-top: 75px;
-  }
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    }
+
+    @media screen and (max-width: 600px) {
+      table {
+      border: 0;
+      }
+
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+      }
+      
+      table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+      }
+      
+      table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: center;
+      }
+      
+      table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float:		left;
+      font-family: arial, sans-serif;
+      
+      }
+      
+      td, th {
+      border: 2px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      text-align:
+      left;
+      font-weight: bold;	
+      text-transform: uppercase;
+      }
+      
+      table td:last-child {
+      border-bottom: 0;
+      }
+      }
+    

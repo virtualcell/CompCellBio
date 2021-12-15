@@ -1,14 +1,15 @@
-.container {
+/*.container {
   margin: auto;
   height: 100%;
   align-items: center;
   justify-content: center;
   display: grid;
-}
+}*/
 
-.header{
-  margin-top:75px;
-  text-align: center;
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1{
@@ -18,12 +19,45 @@ h1{
   padding-bottom: 20px;
 }
 
+.header{
+  margin-top:75px;
+  text-align: center;
+}
+
+.headercontainer{
+  margin: auto;
+  height: 100%;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+@media screen and (max-width: 699px){
+  .headercontainer{
+    width: 300px;
+  }
+}
+
 .subheader{
-  text-align: left;
-  margin-left: 20px;
-  margin-top: 50px;
-  font-size: 24px;
+  margin-top: 20px;
   padding-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.subheader{
+  font-size: 24px;
+}
+
+@media screen and (max-width: 481px){
+  h1{
+    font-size: 1.5rem;
+  } 
+  .subheader{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 h1.bannerTitle{
@@ -42,19 +76,15 @@ a.bannerLink{
   color: white;
 }
 
-
 table{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  /*border: 1px solid #dddddd;*/
-  width: 80%;
+  margin-top: 30px;
+  width: 90%;
   background-image: radial-gradient(circle, #979fc7, #7f7e85);
 }
 
 td{
-  /*border: 1px solid #dddddd;*/
   width: auto;
   padding-left: 10px;
   padding-right: 10px;
@@ -87,7 +117,6 @@ td{
   }
  
 }
-
 
 
 /*Card Style -- Andrew Sims*/
@@ -177,13 +206,18 @@ td{
 }*/
 
 .pubheading {
-    margin-top: 40px;
-    margin-left: 90px;
-  }
-
-  h1.pubheading{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
     font-size: 24px;
     padding-bottom: 2px;
+  }
+
+  @media screen and (max-width: 481px) {
+    .pubheading{
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   
   

@@ -1,10 +1,14 @@
 .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header {
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;
+    margin-top: 75px;*/
+    text-align: center;
+    line-height: 0.8;
     margin-top: 75px;
 }
 
@@ -14,37 +18,49 @@ h1{
     font-size: 32px;
     color: #20394B;
     text-align: center; 
+    padding-bottom: 20px;
   }
 
+ 
+
 h3{
-    margin-right: 10px;
+    padding: 5px;
+    margin-left: 30px;
 }
 
+@media (max-width: 640px) {
+    h1 {
+    font-size: 1.5rem;
+    }
+    h3{
+        margin:auto;
+    }
+    }
 
-/*.contact{
-    padding-left: 50px;
-}*/
+
+
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
 .flex-image{
-    object-fit: contain;
+    width: 100%;
+    height: auto;
 }
 
 .cite{
     font-size: 12px;
 }
 
-/*.teamheader {
-    margin-bottom: 20px;
-    margin-top: 40px;
-    margin-left: 100px;
-}*/
 
 table{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     border: 1px solid #dddddd;
-    width: 80%;
+    width: 90%;
 }
 
 td{
@@ -55,12 +71,6 @@ td{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-
-@media screen and (max-width: 990px) {
-    .align{
-        flex-wrap: wrap;}
-    }
 
 @media screen and (max-width: 640px){
     table td{
@@ -73,23 +83,7 @@ td{
    
 }
 
-/*@media screen and (max-width: 800px){
-    h3{
-        font-size: 15px;
-        width: 100%;
-    }
-    
-}
 
-@media (max-width: 400px) {
-    .container {
-        display: flex;
-    }
-    h3{
-        font-size: smaller;
-    }
-}
-*/
 
 
 
