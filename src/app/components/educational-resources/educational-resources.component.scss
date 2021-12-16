@@ -20,7 +20,7 @@ h1{
 }
 
 .header{
-  margin-top:75px;
+  margin-top:50px;
   text-align: center;
 }
 
@@ -50,7 +50,7 @@ h1.subheader{
   font-size: 24px;
 }
 
-@media screen and (max-width: 481px){
+@media screen and (max-width: 640px){
   h1{
     font-size: 1.5rem;
   } 
@@ -79,9 +79,10 @@ a.bannerLink{
 table{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 60px;
   width: 90%;
-  background-image: radial-gradient(circle, #979fc7, #7f7e85);
+  background-image: radial-gradient(circle, #6e9fc2, #557a95);
+  
 }
 
 td{
@@ -131,8 +132,8 @@ td{
     overflow: hidden;
     top: 0;
     right: 0;
-    background-color: #7F7E85;
-    /*background-color: #696669;*/
+    background-color: #557a95;
+    /*background-color: #7F7E85;*/
     border-radius: 0 4px 0 32px;
   }
   
@@ -147,7 +148,6 @@ td{
     display: block;
     position: relative;
     max-width: 262px;
-    /*background-color: #5d5c61;*/
     background-color: #B1A296;
     border-radius: 4px;
     padding: 22px 24px;
@@ -178,8 +178,8 @@ td{
     }
 
     .card1:hover {
-      background-color: #7F7E85;
-      /*background-color: #696669;*/
+      background-color: #557a95;
+      /*background-color: #7F7E85;*/
     p {
       transition: all 0.3s ease-out;
       color: rgba(255, 255, 255, 0.8);
@@ -207,7 +207,7 @@ td{
 
 .pubheading {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 20px;
     font-size: 24px;
     padding-bottom: 2px;

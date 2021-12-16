@@ -1,6 +1,4 @@
-.main-container{
-    padding: 30px;
-}
+
 
 h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -8,7 +6,7 @@ h1{
   color: #20394B;
 }
 
-@media screen and (max-width: 481px){
+@media screen and (max-width: 640px){
   h1{
     font-size: 1.5rem;
   } 
@@ -16,7 +14,7 @@ h1{
 
 .heading {
     text-align: center;
-    margin-top: 45px;
+    margin-top: 50px;
   }
   
 .heading_credits {
@@ -98,19 +96,10 @@ h1{
     transition: all 0.5s;
   }
   
-  /*.card_link:hover::after {
-    width: 100%;
-  }*/
-  
   .card_exit {
     grid-row: 1/2;
     justify-self: end;
   }
-  
-  /*.card__icon {
-    grid-row: 2/3;
-    font-size: 30px;
-  }*/
   
   .card_title {
     grid-row: 3/4;
@@ -126,7 +115,6 @@ h1{
   /* CARD BACKGROUNDS */
   
   .card-skyblue {
-    /*background: linear-gradient(#92eaff, #5780b1);*/
     background: linear-gradient(#4b8dcd, #7ec3d1);
   }
 

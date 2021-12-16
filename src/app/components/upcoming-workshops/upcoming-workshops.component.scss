@@ -36,7 +36,7 @@ h3{
     border-radius:.313em;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.5);
     line-height:1.5em;
-    margin-top: 75px;
+    margin-top: 50px;
     }
 
     h1.content{
@@ -134,7 +134,7 @@ h3{
         text-transform: uppercase;
       }
       
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 995px) {
         table {
           border: 0;
         }
@@ -163,7 +163,6 @@ h3{
         table td {
           border-bottom: 1px solid #ddd;
           display: block;
-          font-size: .8em;
           text-align: center;
         }
         
@@ -180,5 +179,11 @@ h3{
         
         table td:last-child {
           border-bottom: 0;
+        }
+      }
+
+      @media screen and (max-width: 641px){
+        table td {
+          font-size: .8em;
         }
       }

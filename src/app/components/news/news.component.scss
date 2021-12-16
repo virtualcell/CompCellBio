@@ -5,16 +5,16 @@ h1{
     padding-bottom: 20px;
   }
 
-  @media (max-width: 481px) {
+  @media (max-width: 640px) {
     h1 {
         font-size: 1.5rem;
     }
-}
+  }
 
 .header {
     text-align: center;
     line-height: 0.8;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 *{
