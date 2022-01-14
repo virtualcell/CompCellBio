@@ -43,11 +43,16 @@ h3{
       text-align:center;
       font-size: 24px;
     }
+
+    h1.rib{
+      text-align:center;
+      font-size: 24px;
+      color: white;
+    }
     
     .ribbon {
     position:relative;
     padding:0 .5em;
-    font-size:2em;
     margin:0 0 0 -.625em;
     line-height:1.875em;
     color:#ffffff;
@@ -62,25 +67,7 @@ h3{
     display:block
     }
     
-    /*.ribbon:before {
-    width:.469em;
-    height:100%;
-    padding:0 0 .438em;
-    top:0;
-    left:-.469em;
-    background:inherit;
-    border-radius:.313em 0 0 .313em
-    }
     
-    .ribbon:after {
-    width:.313em;
-    height:.313em;
-    background:rgba(0,0,0,0.35);
-    bottom:-.313em;
-    left:-.313em;
-    border-radius:.313em 0 0 .313em;
-    box-shadow:inset -1px 2px 2px rgba(0,0,0,0.3)
-    }*/
     @media (max-width: 600px) {
     body {
     font-size:.875em
@@ -95,6 +82,17 @@ h3{
     font-size:.714em
     }
     }
+
+    p.rib{
+      text-align: center;
+    }
+
+    a.rib{
+      color: white;
+      text-decoration: underline;
+    }
+
+
 
       /*Responsive Table*/
       table {
