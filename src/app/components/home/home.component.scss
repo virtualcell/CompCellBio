@@ -107,15 +107,17 @@ hr.line {
     color:#3a393d;
     }
 
-    h1.content{
+    h1.rib{
       text-align:center;
       font-size: 24px;
+      color: white;
     }
+
+    
     
     .ribbon {
     position:relative;
     padding:0 .5em;
-    font-size:2em;
     margin:0 0 0 -.625em;
     line-height:1.875em;
     color:#ffffff;
@@ -144,6 +146,15 @@ hr.line {
     .ribbon:before,.ribbon:after {
     font-size:.714em
     }
+    }
+
+    p.rib{
+      text-align: center;
+    }
+
+    a.rib{
+      color: white;
+      text-decoration: underline;
     }
 
 
