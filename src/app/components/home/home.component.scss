@@ -113,7 +113,33 @@ hr.line {
       color: white;
     }
 
-    
+    h1.jobribbon{
+      position: relative;
+      background: #B1A296;
+      padding: 5px 10px;
+      margin: 30px;
+      color: #fff;
+      color: #5D5C61;
+      text-align: center;
+    }
+
+    h1.jobribbon span {
+      float: right;
+    }
+
+    .jobribbon:before{
+      content: '';
+      position: absolute;
+      height: 0;
+      width: 0;
+    }
+
+    .jobribbon:before{
+      top: 100%;
+      right: 0px;
+      border-top: 10px solid #687864;
+      border-right: 20px solid transparent;
+    }
     
     .ribbon {
     position:relative;
