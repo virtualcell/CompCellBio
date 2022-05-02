@@ -49,6 +49,7 @@ h3{
       font-size: 24px;
       color: white;
     }
+
     
     .ribbon {
     position:relative;
@@ -60,6 +61,8 @@ h3{
     background: #557a95;
     box-shadow:-1px 2px 3px rgba(0,0,0,0.5)
     }
+
+
     
     .ribbon:before,.ribbon:after {
     position:absolute;
@@ -84,7 +87,8 @@ h3{
     }
 
     p.rib{
-      text-align: center;
+      color: #20394B;
+      font-weight: 500;   
     }
 
     a.rib{
