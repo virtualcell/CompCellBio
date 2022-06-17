@@ -11,7 +11,6 @@ import { NetworksComponent } from './components/networks/networks.component';
 import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
 
-
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
