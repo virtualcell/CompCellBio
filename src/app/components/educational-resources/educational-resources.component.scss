@@ -6,75 +6,136 @@
   display: grid;
 }*/
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-h1{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 32px;
-  color: #20394B;
-  padding-bottom: 20px;
-}
-
-.header{
-  margin-top:50px;
+.header {
   text-align: center;
+  padding-top: 30px;
 }
 
-.headercontainer{
-  margin: auto;
-  height: 100%;
-  width: 700px;
-  align-items: center;
-  justify-content: center;
-  display: grid;
+h1 {
+  font-family: sans-serif;
+  color: #426078;
 }
 
-@media screen and (max-width: 699px){
-  .headercontainer{
-    width: 300px;
+h2 {
+  font-family: sans-serif;
+  color: #426078;
+  text-indent: 40px;
+}
+
+h2.webinars{
+  margin-bottom: 0;
+}
+
+img{
+  width: 100%;
+  //width: auto;
+  height: auto;
+  padding-left: 30px;
+} 
+
+@media screen and (min-width: 1200px)
+{
+  .videoText{
+    padding-top: 20px;
   }
 }
 
-.subheader{
-  margin-top: 20px;
-  padding-bottom: 2px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-h1.subheader{
-  font-size: 24px;
-}
-
-@media screen and (max-width: 640px){
-  h1{
-    font-size: 1.5rem;
-  } 
-  .subheader{
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (min-width: 768px) and (max-width: 991px)
+              {
+  h2{
+    font-family: sans-serif;
+    color: #426078;
+    text-indent:10px;
   }
+  h2.courses{
+    font-size: 124%;
+  }
+
+  img{
+   width: 100%;
+   //width: auto;
+   height: auto;
+ } 
 }
 
-h1.bannerTitle{
-  color: white;
-  font-size: 24px;
-  padding-bottom: 2px;
+@media screen and (min-width: 320px) and (max-width: 767px)
+              {
+  h2{
+    font-family: sans-serif;
+    color: #426078;
+    text-indent:40px;
+  }
+  img{
+   width: 100%;
+   //width: auto;
+   height: auto;
+ } 
+ .videoText{
+  margin-left: 10px;
+ }
+
 }
 
-.bannerText{
-  color: white;
-  margin-left: 150px;
-  font-size: medium;
+.div-video{
+  background-color: #D0E0F5;
+  color: #596069;
+  padding-top: 20px;
+  padding-right: 10px;
 }
 
-a.bannerLink{
-  color: white;
+.div-otherED{
+  background-color: #b8C54A;
+  color: #596069;
+  padding-top: 20px;
+  padding-right: 10px;
 }
+
+
+
+/*Above is new code*/
+
+// .container{
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+// }
+
+
+
+// .headercontainer{
+//   margin: auto;
+//   height: 100%;
+//   width: 700px;
+//   align-items: center;
+//   justify-content: center;
+//   display: grid;
+// }
+
+// @media screen and (max-width: 699px){
+//   .headercontainer{
+//     width: 300px;
+//   }
+// }
+
+// .subheader{
+//   margin-top: 20px;
+//   padding-bottom: 2px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+
+// @media screen and (max-width: 640px){
+//   h1{
+//     font-size: 1.5rem;
+//   } 
+//   .subheader{
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }
+
 
 table{
   margin-left: auto;
@@ -102,10 +163,6 @@ td{
 @media screen and (max-width: 640px){
   table td{
       display: block;
-  }
-  h3{
-      font-size: 15px;
-      inline-size: auto;
   }
 
   .flex-image{
@@ -137,12 +194,12 @@ td{
     border-radius: 0 4px 0 32px;
   }
   
-  .go-arrow {
-    margin-top: -4px;
-    margin-right: -4px;
-    color: white;
-    font-family: courier, sans;
-  }
+  // .go-arrow {
+  //   margin-top: -4px;
+  //   margin-right: -4px;
+  //   color: white;
+  //   font-family: courier, sans;
+  // }
   
   .card1 {
     display: block;
@@ -205,20 +262,20 @@ td{
     padding: 30px;
 }*/
 
-.pubheading {
-    text-align: left;
-    margin-top: 60px;
-    margin-left: 20px;
-    font-size: 24px;
-    padding-bottom: 2px;
-  }
+// .pubheading {
+//     text-align: left;
+//     margin-top: 60px;
+//     margin-left: 20px;
+//     font-size: 24px;
+//     padding-bottom: 2px;
+//   }
 
-  @media screen and (max-width: 481px) {
-    .pubheading{
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
+//   @media screen and (max-width: 481px) {
+//     .pubheading{
+//       margin-left: auto;
+//       margin-right: auto;
+//     }
+//   }
   
   
   /* Publication CARDS */
@@ -242,6 +299,7 @@ td{
     border-radius: 10px; /*rounded edges*/
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
+    font-size: smaller;
   }
   
   .card_pub:hover {

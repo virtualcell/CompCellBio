@@ -4,10 +4,15 @@
   justify-content: center;
 }
 
+.header {
+  text-align: center;
+  padding-top: 30px; 
+}
+
 h1{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 32px;
-  color: #20394B;
+  font-family: sans-serif;
+  color: #426078;
+  text-align: center; 
 }
 
 @media screen and (max-width: 640px){
@@ -16,12 +21,6 @@ h1{
   } 
 }
 
-.header {
-  text-align: center;
-  line-height: 0.8;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
 .responsive {
   max-width: 100%;

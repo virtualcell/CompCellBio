@@ -1,10 +1,10 @@
-<!--<div class="content"><span>CompCellBio app is running!</span></div>-->
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-    <a class="navbar-brand" routerLink="">Computational Cell Biology</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+ <!-- <body>  Without this tag, makes the page more compact-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" routerLink="">Computational Cell Biology</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -37,12 +37,49 @@
           </li>
           </ul>
       </div>
-    </div>
-    
-  </nav>
+    </nav>
+
+
+<!-- <app-team></app-team> -->
 <router-outlet></router-outlet>
-<div class="footer">
+
+
+<!-- <div class="footer">  ORIGINAL
   <h3><a href="https://reporter.nih.gov/search/oNbYJ1l_9EaPQtnr4QfkMg/project-details/10025462" class="white" target="_blank">National Resource for Mechanistic Modeling of Cellular Systems</a></h3>
   <a href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" target="_blank"><img class="flex-image" src="../assets/NIGMSLogoBG.png "></a>
   <h3>Funding provided by: <a href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" class="white" target="_blank">NIGMS National and Regional Resources (R24) Program</a></h3>
-</div>
+</div> -->
+
+<!-- <footer>
+  <p class="text-center">
+  <a class="footer" href="https://reporter.nih.gov/search/oNbYJ1l_9EaPQtnr4QfkMg/project-details/10025462" target="_blank">
+    National Resource for Mechanistic Modeling of Cellular Systems</a>
+
+  <a href="https://www.nigms.nih.gov/" target="_blank"><img class="footer" src="../assets/NIGMSLogoBGV2.png"></a>
+  
+
+  Funding provided by: <a class="footer" href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" target="_blank">
+  NIGMS National and Regional Resources (R24) Program</a>
+  </p>
+
+</footer> -->
+
+<br>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 mt-md-0 mt-3 text-center">
+        <a class="footer" href="https://reporter.nih.gov/search/oNbYJ1l_9EaPQtnr4QfkMg/project-details/10025462" target="_blank">
+          National Resource for Mechanistic Modeling of Cellular Systems</a>
+      </div>
+      <div class="col-md-4 mt-md-0 mt-3 text-center">
+          <a href="https://www.nigms.nih.gov/" target="_blank"><img class="footer" src="../assets/NIGMSLogoBGV2.png" class="img-fluid"></a>
+      </div>
+      <div class="col-md-4 mt-md-0 mt-3 text-center">
+        Funding provided by: <a class="footer" href="https://www.nigms.nih.gov/Research/mechanisms/Pages/NIGMS-National-and-Regional-Resources-(R24).aspx" target="_blank">
+          NIGMS National and Regional Resources (R24) Program</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
