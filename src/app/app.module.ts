@@ -26,6 +26,7 @@ import { NewsComponent } from './components/news/news.component';
 
 
 import { MatExpansionModule } from '@angular/material/expansion';
+import { CcbworkshopComponent } from './ccbworkshop/ccbworkshop.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     UpcomingWorkshopsComponent,
     NetworksComponent,
     TeamComponent,
-    NewsComponent
+    NewsComponent,
+    CcbworkshopComponent
   ],
   imports: [
     BrowserModule,
