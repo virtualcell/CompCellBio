@@ -23,10 +23,10 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upcoming-workshops.component';
 import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
-
+import { CcbworkshopComponent } from './components/ccbworkshop/ccbworkshop.component';
 
 import { MatExpansionModule } from '@angular/material/expansion';
-import { CcbworkshopComponent } from './ccbworkshop/ccbworkshop.component';
+
 
 
 @NgModule({
@@ -43,7 +43,7 @@ import { CcbworkshopComponent } from './ccbworkshop/ccbworkshop.component';
     NetworksComponent,
     TeamComponent,
     NewsComponent,
-    CcbworkshopComponent
+    CcbworkshopComponent,
   ],
   imports: [
     BrowserModule,

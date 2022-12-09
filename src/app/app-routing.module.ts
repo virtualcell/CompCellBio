@@ -10,6 +10,7 @@ import { UpcomingWorkshopsComponent } from './components/upcoming-workshops/upco
 import { NetworksComponent } from './components/networks/networks.component';
 import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
+import { CcbworkshopComponent } from './components/ccbworkshop/ccbworkshop.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'software-resources', component: SoftwareResourcesComponent },
   { path: 'publications', component: PublicationsComponent },
   { path: 'upcoming-workshops', component: UpcomingWorkshopsComponent },
+  { path: 'ccbworkshop', component: CcbworkshopComponent },
 
 ];
 
