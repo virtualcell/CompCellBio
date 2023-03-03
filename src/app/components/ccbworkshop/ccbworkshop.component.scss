@@ -9,7 +9,90 @@ h1 {
     color: #426078;
     text-align: center;
   }
-  
+
+  h3.funding{
+    padding-top: 20px;
+    display: flex;
+  }
+
+ #nih{
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+  .div-onsitepic{
+    max-width: 80%;
+    max-height: auto;
+    //display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+  }
+
+  .div-onsitetext{
+    //background-color: #78759C;
+    margin-top: 60px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    }
+
+    .div-onsitetext2{
+      //background-color: #78759C;
+      margin-top: 20px;
+      padding-right: 10px;
+      padding-top: 0px;
+      padding-bottom: 20px;
+      }
+      
+    #content1::after{
+          content: "\a";
+          white-space: pre;
+    }
+
+    .div-workshop_onsite{
+      background-color: #6dbac4;
+      margin-top: 20px;
+      //margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 1px;
+      color: white;
+    
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+    #section-divider {
+      max-height: 200px;
+    }
+    
+    section {
+      padding: 40px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 26px;
+      
+      &.first {
+        background: #6dbac4;
+        justify-content: flex-end;
+      }
+      
+      &.second {
+        background: #78759C;
+        justify-content: flex-start;
+      }
+    }
+    
+
+//online workshop footer
   .div-workshop{
     background-color: #78759C;
     margin-top: 20px;
@@ -20,7 +103,7 @@ h1 {
     color: white;
   
   }
-  
+ 
   .div-intro{
     background-color: #EBEFD9;
     margin-top: 20px;
