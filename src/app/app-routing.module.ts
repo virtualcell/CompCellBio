@@ -12,7 +12,7 @@ import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
 import { CcbworkshopComponent } from './components/ccbworkshop/ccbworkshop.component';
 import {AdboardComponent} from './components/adboard/adboard.component';
-import { PreviousWorkshopsComponent } from './previous-workshops/previous-workshops.component';
+import { PreviousWorkshopsComponent } from './components/previous-workshops/previous-workshops.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
