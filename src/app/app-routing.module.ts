@@ -12,6 +12,7 @@ import { TeamComponent } from './components/team/team.component';
 import { NewsComponent } from './components/news/news.component';
 import { CcbworkshopComponent } from './components/ccbworkshop/ccbworkshop.component';
 import {AdboardComponent} from './components/adboard/adboard.component';
+import { PreviousWorkshopsComponent } from './previous-workshops/previous-workshops.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -27,7 +28,7 @@ const routes: Routes = [
   { path: 'upcoming-workshops', component: UpcomingWorkshopsComponent },
   { path: 'ccbworkshop', component: CcbworkshopComponent },
   { path: 'adboard', component: AdboardComponent},
-
+  {path: 'previous-workshops', component: PreviousWorkshopsComponent},
 ];
 
 @NgModule({
