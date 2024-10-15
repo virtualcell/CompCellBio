@@ -14,6 +14,7 @@ import { CcbworkshopComponent } from './components/ccbworkshop/ccbworkshop.compo
 import {AdboardComponent} from './components/adboard/adboard.component';
 import { PreviousWorkshopsComponent } from './components/previous-workshops/previous-workshops.component';
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -28,7 +29,7 @@ const routes: Routes = [
   { path: 'upcoming-workshops', component: UpcomingWorkshopsComponent },
   { path: 'ccbworkshop', component: CcbworkshopComponent },
   { path: 'adboard', component: AdboardComponent},
-  {path: 'previous-workshops', component: PreviousWorkshopsComponent},
+  { path: 'previous-workshops', component: PreviousWorkshopsComponent},
 ];
 
 @NgModule({
