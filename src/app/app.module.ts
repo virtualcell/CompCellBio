@@ -27,7 +27,7 @@ import { CcbworkshopComponent } from './components/ccbworkshop/ccbworkshop.compo
 
 import { MatExpansionModule } from '@angular/material/expansion';
 import { AdboardComponent } from './components/adboard/adboard.component';
-import { PreviousWorkshopsComponent } from './previous-workshops/previous-workshops.component';
+import { PreviousWorkshopsComponent } from './components/previous-workshops/previous-workshops.component';
 
 
 
