@@ -17,8 +17,8 @@
 
 
 .button {
-  background: #5c6bc0;
-  border: 2px solid #8bc34a;
+  background: #4251A9;
+  border: 2px solid #6E9D34;
   color: #ffffff;
   padding: 5px 5px;
   text-align: center;
@@ -35,13 +35,13 @@
 
 .button:hover{
   background: transparent;
-  color: #5c6bc0;
+  color: #4251A9;
 }
 
 .buttoninv {
   background: transparent;
-  border: 2px solid #8bc34a;
-  color: #5c6bc0;
+  border: 2px solid #6E9D34;
+  color: #4251A9;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
@@ -56,7 +56,7 @@
 }
 
 .buttoninv:hover{
-  background: #5c6bc0;
+  background: #4251A9;
   color: #ffffff;
 }
 
@@ -72,8 +72,8 @@ table {
   
   table tr {
     background-color: #f8f8f8;
-    border-left: 4px solid #5c6bc0;
-    border-right: 4px solid #8bc34a;
+    border-left: 4px solid #4251A9;
+    border-right: 4px solid #6E9D34;
     padding: .35em;
   }
   
@@ -88,6 +88,7 @@ table {
     font-size: .85em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    text-align: center;
   }
   
   @media screen and (max-width: 600px) {
