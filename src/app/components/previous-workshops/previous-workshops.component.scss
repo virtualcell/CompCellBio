@@ -81,15 +81,6 @@ body {
   }
 
 
-
-
-
-
-
-
-
-
-
 //collapsible/accordion menu
 .accordion > input[type="checkbox"] {
     position: absolute;
@@ -141,13 +132,13 @@ body {
     cursor: pointer;
     font-weight: normal;
     padding: 15px;
-    background: #91bb64 ;
+    background: #5D8038;
   }
   
   
   .accordion label:hover,
   .accordion label:focus {
-    background: #6b9240;
+    background: #3E5525;
   }
   
   .accordion .handle label:before {
@@ -175,4 +166,5 @@ body {
     padding: 0;
     overflow: hidden;
   }
+
 
