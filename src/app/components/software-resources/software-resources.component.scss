@@ -108,4 +108,89 @@ table {
       border-bottom: 0;
       }
       }
+
+
+
+ /*New Version without tables*/
+/* Make the entire viewport a center stage */
+.page-center {
+  min-height: 100vh;            /* Fill the full screen height */
+  display: flex;
+  align-items: center;          /* Vertical centering */
+  justify-content: center;      /* Horizontal centering */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Wrap rows in a column, left aligned */
+.pairs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;                 /* space between rows */
+  align-items: flex-start;
+  text-align: left;
+  border: 4px solid #7F8C2C;    /* Added border */
+  padding: 1rem;                /* Optional: add padding inside the border */
+  border-radius: 8px;  
+
+}
+
+/* Each row is image + text aligned left */
+.pair-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.90rem;                 /* space between image and text */
+  flex-wrap: wrap;              /* wrap on narrow screens */
+  width: auto;            /*max-width: 900px;  */
+}
+
+/* Image link styling (keeps focus rings visible) */
+.pair-image-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image sizing (override via width/height attributes if needed) 
+.pair-image {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}*/
+
+/* Text block next to image */
+.pair-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 900px;
+}
+
+/* Styling for the " - " separator */
+.dash {
+  margin: 0 0.25rem;
+  color: #666;
+}
+
+/* Anchor styling (customize to your theme) */
+.pair-text a {
+  color: #1976d2;              /* Material blue-ish */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pair-text a:hover,
+.pair-text a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Only add separator when there is a previous row */
+.pair-row + .pair-row {
+  border-top: 1px solid #78842A;
+  width: 100%;
+  padding-top: 10px;
+}
+
     
