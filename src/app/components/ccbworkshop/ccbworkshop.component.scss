@@ -1,295 +1,109 @@
-h1 {
-    font-family: sans-serif;
-    color: #263845;
-    text-align: center;
-  }
-  
-  h2 {
-    font-family: sans-serif;
-    color: #263845;
-    text-align: center;
-  }
+/* ============================================================
+   WCAG-Compliant Heading Spacing & Typography
+   ------------------------------------------------------------
+   Key WCAG References:
+   - WCAG 2.1 Success Criterion 1.4.12 (Text Spacing)
+   - WCAG 2.1 SC 1.3.1 (Info & Relationships – semantic hierarchy)
+   - WCAG 2.1 SC 1.4.8 (Visual Presentation – readable line spacing)
+   ============================================================ */
 
-  h3.funding{
-    padding-top: 20px;
-    display: flex;
-  }
-
- #nih{
-    padding-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
- /* .div-onsitepic{
-    max-width: 80%;
-    max-height: auto;
-    //display: inline-block;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-left: 50px;
-  }*/
-  
-  .div-onsitetext{
-    margin-top: 60px;
-    padding-right: 10px;
-    padding-top: 0px;
-    padding-bottom: 1px;
-    }
-
-    .div-onsitetext2{
-      margin-top: 20px;
-      padding-right: 10px;
-      padding-top: 0px;
-      padding-bottom: 20px;
-      }
-      
-    #content1::after{
-          content: "\a";
-          white-space: pre;
-    }
-
-    .div-workshop_onsite{
-      //footer
-      //background-color: #6dbac4; onsite
-      background-color: #78759c; //online
-      margin-top: 20px;
-      padding-left: 20px;
-      padding-right: 10px;
-      padding-top: 10px;
-      padding-bottom: 1px;
-      color: white;
-    
-    }
-
-    /*@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
-
-    #section-divider {
-      max-height: 200px;
-    }
-    
-    section {
-      padding: 40px;
-      height: 200px;
-      display: flex;
-      align-items: center;
-      color: white;
-      font-size: 26px;
-      
-      &.first {
-        background: #6dbac4;
-        justify-content: flex-end;
-      }
-      
-      &.second {
-        background: #78759C;
-        justify-content: flex-start;
-      }
-    }
-    
-*/
-//online workshop footer
-  /*.div-workshop{
-    background-color: #78759C;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    color: white;
-  
-  }
- 
-  .div-intro{
-    background-color: #EBEFD9;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .div-text{
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }  
-
-
-  .div-header{
-    padding-left: 20px;
-    margin-top: 10px;
-    padding-top: 10px;
-  }
-  */
-
-  img {
-    max-width: 100%;
-    max-height: 100%;
+/*------------- Global Text Rules -------------*/
+html {
+  font-size: 100%; /* supports user zoom */
 }
 
-.uchc{
-    max-width: 50%;
-    max-height: 50%;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-
-//tabs
-/*.tabs {
-  position: relative;
-  margin: 40px auto;
-  width: 1024px;
-  max-width: 100%;
-  overflow: hidden;
-  padding-top: 10px;
-  margin-bottom: 60px;
-}*/
-
-.tabs input {
-  position: absolute;
-  z-index: 1000;
-  width: 25%;
-  height: 50px;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  cursor: pointer;
-  margin: 0;
-}
-
-.tabs input#tab-2 {
-  left: 25%;
-}
-
-.tabs input#tab-3 {
-  left: 50%;
-}
-
-.tabs input#tab-4 {
-  left: 75%;
-}
-
-.tabs label {
-  background: #415F7A;
-  color: #fefefe; //font color
-  font-size: 15px;
-  line-height: 40px;
-  height: 40px;
-  position: relative;
-  top: 0;
-  padding: 0 20px;
-  float: left;
-  display: block;
-  width: 25%;
-  letter-spacing: 1px;
-  font-weight: bold;
-  text-align: center;
-  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  -webkit-transition: all 150ms ease 0s;
-  transition: all 150ms ease 0s;
-}
-
-.tabs label:hover {
-  cursor: pointer;
-}
-
-.tabs label:after {
-  content: '';
-  background: #A1D1FF;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  display: block;
-}
-
-.tabs input:hover + label {
-  background: #BA9963;
-}
-
-.tabs label:first-of-type {
-  z-index: 4;
-}
-
-.tab-label-2 {
-  z-index: 4;
-}
-
-.tab-label-3 {
-  z-index: 3;
-}
-
-.tab-label-4 {
-  z-index: 2;
-}
-
-.tabs input:checked + label {
-  background: #fefefe;
+body {
+  line-height: 1.6; /* meets WCAG recommended 1.5+ */
   color: #1a1a1a;
-  z-index: 6;
 }
 
-.content {
-  height: auto;
-  width: 100%;
-  float: left;
-  position: relative;
-  z-index: 5;
-  background: #fefefe;
-  //top: -10px;
-  box-sizing: border-box;
+/*------------- Heading Structure -------------*/
+/* All headings must scale progressively and use adequate spacing.
+   Spacing is applied with margin-block to better support RTL languages. */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;   /* WCAG-friendly: not too tight, not too loose */
+  font-weight: normal;
+  margin-block-start: 1.2rem;
+  margin-block-end: 0.7rem;
 }
 
-.content div {
-  position: relative;
-  float: left;
-  width: 0;
-  height: 0;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  opacity: 0;
-  background: #fefefe;
+/*------------- Individual Heading Levels -------------*/
+h1 {
+  font-size: 2.2rem;      /* Large, but not too large for zooming users */
+  margin-block-start: 2rem;
+  margin-block-end: 1rem;
+  color: #263845;
+  text-align: center;
+  font-family: sans-serif;
 }
 
-.content div h2 {
-  margin-top: 0;
+h2 {
+  font-size: 1.75rem;
+  margin-block-start: 1.8rem;
+  margin-block-end: 0.9rem;
+  color: #263845;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-.tabs .tab-selector-1:checked ~ .content .content-1,
-.tabs .tab-selector-2:checked ~ .content .content-2,
-.tabs .tab-selector-3:checked ~ .content .content-3,
-.tabs .tab-selector-4:checked ~ .content .content-4 {
-  z-index: 100;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  opacity: 1;
-  width: 100%;
-  height: auto;
-  width: 100%;
-  height: auto;
-  padding: 4%;
+h3 {
+  font-size: 1.20rem;
+  margin-block-start: 1.4rem;
+  margin-block-end: 0.7rem;
+  color: #263845;
+  font-family: sans-serif;
 }
 
-/*.content div h2 {
-  color: #4477CC;
-}*/
+h4 {
+  font-size: 1.25rem;
+  margin-block-start: 1.2rem;
+  margin-block-end: 0.6rem;
+  font-family: sans-serif;
+}
 
-/*.content div p {
-  font-size: 14px;
-  line-height: 22px;
-  text-align: left;
-  margin: 0;
-  color: #777;
-}*/
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/*------------- Additional Accessibility Enhancements -------------*/
+
+/* Improve paragraph readability */
+p {
+  margin-block-start: 0.9rem;
+  margin-block-end: 0.9rem;
+}
+
+/* Anchor styling for good contrast and focus visibility */
+a {
+  color: #0055aa; /* strong contrast blue */
+  text-decoration: underline;
+}
+
+a:focus,
+a:hover {
+  outline: 2px solid #7A5000; /* highly visible keyboard focus indicator */
+  outline-offset: 2px;
+}
+
+
+/*cards*/
+
+.card a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    transition: 0.2s ease;
+}
+
