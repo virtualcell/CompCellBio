@@ -10,36 +10,11 @@
     margin-top: 30px;
 }
 
-
-/*h1{
-    font-family: sans-serif;
-    color: #263845;
-    text-align: center; 
-    padding-bottom: 20px;
-  }
-
-
-h3{
-    padding-top: 5px;
-    padding-left: 10px;
-    color: #263845;
-}
-
-@media (max-width: 640px) {
-    h1 {
-    font-size: 1.5rem;
-    }
-    h3{
-        margin:auto;
-    }
-    }*/
-    
-
 .intro{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    background-color: #EBEFD9;
+    background-color: #ebefd9;
     margin-bottom: 20px;
 }
 
@@ -47,11 +22,10 @@ h3{
     font-family: sans-serif;
     padding-top: 5px;
     padding-left: 10px;
-    /*color: #426078;*/
-    color:#0D3B66;
     font-size: 1.1em;
     line-height: 1.7;
 }
+
 
 .flex-image{
     width: 100%;
@@ -67,6 +41,7 @@ h3{
   max-width: min(100%, 400px); /* Optional: cap at 400px or any size you prefer */
 }
 
+
 .cite{
     font-size: 12px;
 }
@@ -75,13 +50,16 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    border: 2px solid #dddddd;
+    border: 2px solid #525252;
 }
 
 
 hr.solid{
-    border-top: 1px solid #dddddd;
+    /*border-top: 2px solid ;*/
+    background-color: #525252;
     height: 2px;
+    border: none;
+    opacity: 1.0;
 }
 
 
@@ -176,3 +154,4 @@ a:hover {
   outline: 2px solid #7A5000; /* highly visible keyboard focus indicator */
   outline-offset: 2px;
 }
+
